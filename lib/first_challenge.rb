@@ -14,7 +14,9 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy Mercury"][:favorite_icecream_flavors].pop
+array = contacts["Freddy Mercury"][:favorite_icecream_flavors]
+array.pop
+contacts["Freddy Mercury"][:favorite_icecream_flavors] = array
 
   end
 
